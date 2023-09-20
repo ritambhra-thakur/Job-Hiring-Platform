@@ -1,0 +1,28 @@
+@import "../static/admin/css/base.css"; /* Using a string */
+
+/* select2 single */
+.select2-dropdown{
+    background-color: var(--body-bg) !important;
+}
+
+.select2-container--default .select2-selection--single{
+    background-color: var(--body-bg) !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    color: var(--body-fg) !important;
+}
+
+
+/* select2 multiple */
+.select2-container--default .select2-selection--multiple{
+    background-color: var(--body-bg) !important;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+    background-color: var(--body-bg) !important;
+}
+
+.select2-container--default .select2-search--inline .select2-search__field{
+    color: var(--body-fg) !important;
+}

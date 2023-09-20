@@ -1,0 +1,86 @@
+<!--{% comment %} <html>
+  <body>
+    <p>Dear {{first_name}},</p>
+    <p>
+      Thank you for signing up for our service. To ensure the security of your
+      account, we require that you verify your email address and device. Please
+      use the following OTP to complete the verification process:
+    </p>
+    <p>OTP: {{otp}}</p>
+    <p>
+      Please enter the OTP on the verification page when prompted. If you did
+      not initiate this verification request, please contact our customer
+      support team immediately.
+    </p>
+    <p>
+      Thank you for helping us maintain the security of your account. If you
+      have any questions or concerns, please do not hesitate to contact us.
+    </p>
+    <p>Best regards,</p>
+    <p>The {{company_name}} team</p>
+  </body>
+</html> {% endcomment %}
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>title</title>
+  </head>
+  <body>
+    <p>Dear {{first_name}},</p>
+    <p>
+      Thank you for signing up for our service. To ensure the security of your
+      account, we require that you verify your email address and device. Please
+      click on YES to verify the device and make your login successful.
+    </p>
+    <div
+      style="
+        width: 250px;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+      "
+    >
+      <a href="{{yes_link}}"
+        ><button
+          style="
+            color: #fff;
+            background: #287e41;
+            width: 50px;
+            height: 25px;
+            border-radius: 0px;
+            border: none;
+            cursor: pointer;
+          "
+        >
+          Yes
+        </button></a
+      >
+      <a href="{{no_link}}"
+        ><button
+          style="
+            color: #fff;
+            background: #b64848;
+            width: 50px;
+            height: 25px;
+            border-radius: 0px;
+            border: none;
+            cursor: pointer;
+          "
+        >
+          No
+        </button></a
+      >
+    </div>
+    <p>
+      If you did not initiate this verification request, please contact our
+      customer support team immediately.
+    </p>
+    <p>
+      Thank you for helping us maintain the security of your account. If you
+      have any questions or concerns, please do not hesitate to contact us.
+    </p>
+    <p>Best regards,</p>
+    <p>The {{company_name}} team</p>
+  </body>
+</html>

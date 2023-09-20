@@ -1,0 +1,160 @@
+{
+    "info": {
+        "_postman_id": "56fa3de5-8148-4403-bcd7-8d4f444da540",
+        "name": "Create and Update Media",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "http://localhost:8000/users/media/api/v1/create/",
+            "request": {
+                "auth": {
+                    "type": "bearer",
+                    "bearer": [
+                        {
+                            "key": "token",
+                            "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQwMzI5OTA4LCJpYXQiOjE2NDAzMjI3MDgsImp0aSI6IjA3NTY3NGEyMmY3ODQxYjE4ZmZkMWU1M2M5N2UxNWM0IiwidXNlcl9pZCI6Mn0.mpFsYpADRx7TW0gkyf37E_H6m7dQSi0nWgG4z8Cqdeg",
+                            "type": "string"
+                        }
+                    ]
+                },
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "formdata",
+                    "formdata": [
+                        {
+                            "key": "profile",
+                            "value": "1",
+                            "type": "text"
+                        },
+                        {
+                            "key": "media_file",
+                            "type": "file",
+                            "src": "/C:/Users/HP/Desktop/saurav documents/IMG_20190414_2_1.jpg"
+                        },
+                        {
+                            "key": "media_file_name",
+                            "value": "vrverferf",
+                            "type": "text"
+                        },
+                        {
+                            "key": "file_type",
+                            "value": "ewfewfwf",
+                            "type": "text"
+                        },
+                        {
+                            "key": "is_active",
+                            "value": "True",
+                            "type": "text"
+                        },
+                        {
+                            "key": "is_deleted",
+                            "value": "True",
+                            "type": "text"
+                        },
+                        {
+                            "key": "can_delete",
+                            "value": "True",
+                            "type": "text"
+                        }
+                    ]
+                },
+                "url": {
+                    "raw": "http://localhost:8000/users/media/api/v1/create/",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "users",
+                        "media",
+                        "api",
+                        "v1",
+                        "create",
+                        ""
+                    ]
+                },
+                "description": "This is an API of Create Media. Authentication must be provided(access token) on header."
+            },
+            "response": []
+        },
+        {
+            "name": "http://localhost:8000/users/media/api/v1/update/6/",
+            "request": {
+                "auth": {
+                    "type": "bearer",
+                    "bearer": [
+                        {
+                            "key": "token",
+                            "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjQwMzI5OTA4LCJpYXQiOjE2NDAzMjI3MDgsImp0aSI6IjA3NTY3NGEyMmY3ODQxYjE4ZmZkMWU1M2M5N2UxNWM0IiwidXNlcl9pZCI6Mn0.mpFsYpADRx7TW0gkyf37E_H6m7dQSi0nWgG4z8Cqdeg",
+                            "type": "string"
+                        }
+                    ]
+                },
+                "method": "PUT",
+                "header": [],
+                "body": {
+                    "mode": "formdata",
+                    "formdata": [
+                        {
+                            "key": "profile",
+                            "value": "1",
+                            "type": "text"
+                        },
+                        {
+                            "key": "media_file",
+                            "type": "file",
+                            "src": "/C:/Users/HP/Desktop/saurav documents/hp.JPG"
+                        },
+                        {
+                            "key": "media_file_name",
+                            "value": "saurav",
+                            "type": "text"
+                        },
+                        {
+                            "key": "file_type",
+                            "value": "verv",
+                            "type": "text"
+                        },
+                        {
+                            "key": "is_active",
+                            "value": "True",
+                            "type": "text"
+                        },
+                        {
+                            "key": "is_deleted",
+                            "value": "False",
+                            "type": "text"
+                        },
+                        {
+                            "key": "can_deleted",
+                            "value": "False",
+                            "type": "text"
+                        }
+                    ]
+                },
+                "url": {
+                    "raw": "http://localhost:8000/users/media/api/v1/update/6/",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "users",
+                        "media",
+                        "api",
+                        "v1",
+                        "update",
+                        "6",
+                        ""
+                    ]
+                },
+                "description": "This is the API of Update Media.Authentication must be provided(access token) on header."
+            },
+            "response": []
+        }
+    ]
+}

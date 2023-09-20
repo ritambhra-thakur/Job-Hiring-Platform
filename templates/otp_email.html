@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>title</title>
+  </head>
+  <style type="text/css">
+    .br {
+      display: block;
+      margin-bottom: 0em;
+    }
+    .br_1 {
+      display: block;
+      margin-bottom: -0.6em;
+    }
+
+    /* .brmedium {
+            display: block;
+            margin-bottom: 1em;
+        }
+
+        .brlarge {
+            display: block;
+            margin-bottom: 2em;
+        } */
+  </style>
+  <body>
+    {% comment %} <h4>{{body_msg}}</h4>
+    <span class="br"></span>
+    <h4>HR team will reach you shortly..!</h4> {% endcomment %}
+    <span class="br"></span>
+    {% comment %} <h3> {% endcomment %}
+      <p>
+        Dear {{recipient}}, <br>
+        We recently received a request to verify your email address. To verify your email, please enter the following one-time password. <br><br>
+
+        OTP: {{email_otp}} <br>
+        This OTP is valid for 24hrs. If you do not enter the OTP, you will need to register again. <br>
+        Once you have entered the OTP, your email address will be verified. <br>
+        Thank you for your time.  <br><br><br>
+        Sincerely, <br>
+        {{sender}} <br>
+      </p>
+    {% comment %} </h3> {% endcomment %}
+  </body>
+</html>

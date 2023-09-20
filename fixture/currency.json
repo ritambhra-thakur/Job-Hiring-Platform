@@ -1,0 +1,1406 @@
+[
+  {
+    "model": "referral.currency",
+    "pk": 6,
+    "fields": {
+      "currency_name": "INR",
+      "slug": "inr",
+      "created_at": "2022-02-28T11:29:53.810+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 7,
+    "fields": {
+      "currency_name": "GBP",
+      "slug": "gbp",
+      "created_at": "2022-02-28T11:29:57.887+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 8,
+    "fields": {
+      "currency_name": "USD",
+      "slug": "usd",
+      "created_at": "2022-02-28T11:30:01.760+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 9,
+    "fields": {
+      "currency_name": "PKR",
+      "slug": "pkr",
+      "created_at": "2022-02-28T11:30:14.262+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 10,
+    "fields": {
+      "currency_name": "AFN",
+      "slug": "afn",
+      "created_at": "2023-07-03T12:14:18.552+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 11,
+    "fields": {
+      "currency_name": "EUR",
+      "slug": "eur",
+      "created_at": "2023-07-03T12:14:18.718+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 13,
+    "fields": {
+      "currency_name": "DZD",
+      "slug": "dzd",
+      "created_at": "2023-07-03T12:14:19.047+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 20,
+    "fields": {
+      "currency_name": "EGP",
+      "slug": "egp",
+      "created_at": "2023-07-03T12:16:07.846+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 23,
+    "fields": {
+      "currency_name": "ALL",
+      "slug": "all",
+      "created_at": "2023-07-03T12:28:56.197+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 26,
+    "fields": {
+      "currency_name": "AOA",
+      "slug": "aoa",
+      "created_at": "2023-07-03T12:28:56.854+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 27,
+    "fields": {
+      "currency_name": "XCD",
+      "slug": "xcd",
+      "created_at": "2023-07-03T12:28:57.019+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 28,
+    "fields": {
+      "currency_name": "",
+      "slug": "-2",
+      "created_at": "2023-07-03T12:28:57.183+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 30,
+    "fields": {
+      "currency_name": "ARS",
+      "slug": "ars",
+      "created_at": "2023-07-03T12:28:57.593+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 31,
+    "fields": {
+      "currency_name": "AMD",
+      "slug": "amd",
+      "created_at": "2023-07-03T12:28:57.758+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 32,
+    "fields": {
+      "currency_name": "AWG",
+      "slug": "awg",
+      "created_at": "2023-07-03T12:28:57.922+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 33,
+    "fields": {
+      "currency_name": "AUD",
+      "slug": "aud",
+      "created_at": "2023-07-03T12:28:58.086+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 35,
+    "fields": {
+      "currency_name": "AZN",
+      "slug": "azn",
+      "created_at": "2023-07-03T12:28:58.494+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 36,
+    "fields": {
+      "currency_name": "BSD",
+      "slug": "bsd",
+      "created_at": "2023-07-03T12:28:58.658+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 37,
+    "fields": {
+      "currency_name": "BHD",
+      "slug": "bhd",
+      "created_at": "2023-07-03T12:28:58.822+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 38,
+    "fields": {
+      "currency_name": "BDT",
+      "slug": "bdt",
+      "created_at": "2023-07-03T12:28:58.986+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 39,
+    "fields": {
+      "currency_name": "BBD",
+      "slug": "bbd",
+      "created_at": "2023-07-03T12:28:59.151+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 40,
+    "fields": {
+      "currency_name": "BYR",
+      "slug": "byr",
+      "created_at": "2023-07-03T12:28:59.313+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 42,
+    "fields": {
+      "currency_name": "BZD",
+      "slug": "bzd",
+      "created_at": "2023-07-03T12:28:59.724+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 43,
+    "fields": {
+      "currency_name": "XOF",
+      "slug": "xof",
+      "created_at": "2023-07-03T12:28:59.888+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 44,
+    "fields": {
+      "currency_name": "BMD",
+      "slug": "bmd",
+      "created_at": "2023-07-03T12:29:00.053+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 45,
+    "fields": {
+      "currency_name": "BTN",
+      "slug": "btn",
+      "created_at": "2023-07-03T12:29:00.218+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 46,
+    "fields": {
+      "currency_name": "BOB",
+      "slug": "bob",
+      "created_at": "2023-07-03T12:29:00.382+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 47,
+    "fields": {
+      "currency_name": "BAM",
+      "slug": "bam",
+      "created_at": "2023-07-03T12:29:00.547+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 48,
+    "fields": {
+      "currency_name": "BWP",
+      "slug": "bwp",
+      "created_at": "2023-07-03T12:29:00.711+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 49,
+    "fields": {
+      "currency_name": "NOK",
+      "slug": "nok",
+      "created_at": "2023-07-03T12:29:00.876+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 50,
+    "fields": {
+      "currency_name": "BRL",
+      "slug": "brl",
+      "created_at": "2023-07-03T12:29:01.041+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 51,
+    "fields": {
+      "currency_name": "BND",
+      "slug": "bnd",
+      "created_at": "2023-07-03T12:29:01.203+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 52,
+    "fields": {
+      "currency_name": "BGN",
+      "slug": "bgn",
+      "created_at": "2023-07-03T12:29:01.368+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 54,
+    "fields": {
+      "currency_name": "BIF",
+      "slug": "bif",
+      "created_at": "2023-07-03T12:29:01.778+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 55,
+    "fields": {
+      "currency_name": "KHR",
+      "slug": "khr",
+      "created_at": "2023-07-03T12:29:01.941+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 56,
+    "fields": {
+      "currency_name": "XAF",
+      "slug": "xaf",
+      "created_at": "2023-07-03T12:29:02.105+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 57,
+    "fields": {
+      "currency_name": "CAD",
+      "slug": "cad",
+      "created_at": "2023-07-03T12:29:02.269+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 58,
+    "fields": {
+      "currency_name": "CVE",
+      "slug": "cve",
+      "created_at": "2023-07-03T12:29:02.433+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 59,
+    "fields": {
+      "currency_name": "KYD",
+      "slug": "kyd",
+      "created_at": "2023-07-03T12:29:02.598+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 62,
+    "fields": {
+      "currency_name": "CLP",
+      "slug": "clp",
+      "created_at": "2023-07-03T12:29:03.250+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 63,
+    "fields": {
+      "currency_name": "CNY",
+      "slug": "cny",
+      "created_at": "2023-07-03T12:29:03.414+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 66,
+    "fields": {
+      "currency_name": "COP",
+      "slug": "cop",
+      "created_at": "2023-07-03T12:29:04.070+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 67,
+    "fields": {
+      "currency_name": "KMF",
+      "slug": "kmf",
+      "created_at": "2023-07-03T12:29:04.233+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 69,
+    "fields": {
+      "currency_name": "CDF",
+      "slug": "cdf",
+      "created_at": "2023-07-03T12:29:04.643+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 70,
+    "fields": {
+      "currency_name": "NZD",
+      "slug": "nzd",
+      "created_at": "2023-07-03T12:29:04.808+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 71,
+    "fields": {
+      "currency_name": "CRC",
+      "slug": "crc",
+      "created_at": "2023-07-03T12:29:04.972+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 73,
+    "fields": {
+      "currency_name": "HRK",
+      "slug": "hrk",
+      "created_at": "2023-07-03T12:29:05.382+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 74,
+    "fields": {
+      "currency_name": "CUP",
+      "slug": "cup",
+      "created_at": "2023-07-03T12:29:05.545+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 76,
+    "fields": {
+      "currency_name": "CZK",
+      "slug": "czk",
+      "created_at": "2023-07-03T12:29:05.955+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 77,
+    "fields": {
+      "currency_name": "DKK",
+      "slug": "dkk",
+      "created_at": "2023-07-03T12:29:06.120+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 78,
+    "fields": {
+      "currency_name": "DJF",
+      "slug": "djf",
+      "created_at": "2023-07-03T12:29:06.284+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 80,
+    "fields": {
+      "currency_name": "DOP",
+      "slug": "dop",
+      "created_at": "2023-07-03T12:29:06.693+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 83,
+    "fields": {
+      "currency_name": "ERN",
+      "slug": "ern",
+      "created_at": "2023-07-03T12:29:07.347+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 85,
+    "fields": {
+      "currency_name": "ETB",
+      "slug": "etb",
+      "created_at": "2023-07-03T12:29:07.758+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 86,
+    "fields": {
+      "currency_name": "FKP",
+      "slug": "fkp",
+      "created_at": "2023-07-03T12:29:07.922+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 88,
+    "fields": {
+      "currency_name": "FJD",
+      "slug": "fjd",
+      "created_at": "2023-07-03T12:29:08.331+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 92,
+    "fields": {
+      "currency_name": "XPF",
+      "slug": "xpf",
+      "created_at": "2023-07-03T12:29:09.232+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 95,
+    "fields": {
+      "currency_name": "GMD",
+      "slug": "gmd",
+      "created_at": "2023-07-03T12:29:09.887+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 96,
+    "fields": {
+      "currency_name": "GEL",
+      "slug": "gel",
+      "created_at": "2023-07-03T12:29:10.049+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 98,
+    "fields": {
+      "currency_name": "GHS",
+      "slug": "ghs",
+      "created_at": "2023-07-03T12:29:10.458+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 99,
+    "fields": {
+      "currency_name": "GIP",
+      "slug": "gip",
+      "created_at": "2023-07-03T12:29:10.622+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 104,
+    "fields": {
+      "currency_name": "GTQ",
+      "slug": "gtq",
+      "created_at": "2023-07-03T12:29:11.768+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 105,
+    "fields": {
+      "currency_name": "GNF",
+      "slug": "gnf",
+      "created_at": "2023-07-03T12:29:11.933+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 107,
+    "fields": {
+      "currency_name": "GYD",
+      "slug": "gyd",
+      "created_at": "2023-07-03T12:29:12.341+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 108,
+    "fields": {
+      "currency_name": "HTG",
+      "slug": "htg",
+      "created_at": "2023-07-03T12:29:12.506+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 110,
+    "fields": {
+      "currency_name": "HNL",
+      "slug": "hnl",
+      "created_at": "2023-07-03T12:29:12.917+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 111,
+    "fields": {
+      "currency_name": "HKD",
+      "slug": "hkd",
+      "created_at": "2023-07-03T12:29:13.081+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 112,
+    "fields": {
+      "currency_name": "HUF",
+      "slug": "huf",
+      "created_at": "2023-07-03T12:29:13.245+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 113,
+    "fields": {
+      "currency_name": "ISK",
+      "slug": "isk",
+      "created_at": "2023-07-03T12:29:13.409+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 114,
+    "fields": {
+      "currency_name": "IDR",
+      "slug": "idr",
+      "created_at": "2023-07-03T12:29:13.574+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 115,
+    "fields": {
+      "currency_name": "IRR",
+      "slug": "irr",
+      "created_at": "2023-07-03T12:29:13.737+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 116,
+    "fields": {
+      "currency_name": "IQD",
+      "slug": "iqd",
+      "created_at": "2023-07-03T12:29:13.901+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 118,
+    "fields": {
+      "currency_name": "ILS",
+      "slug": "ils",
+      "created_at": "2023-07-03T12:29:14.309+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 120,
+    "fields": {
+      "currency_name": "JMD",
+      "slug": "jmd",
+      "created_at": "2023-07-03T12:29:14.717+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 121,
+    "fields": {
+      "currency_name": "JPY",
+      "slug": "jpy",
+      "created_at": "2023-07-03T12:29:14.880+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 122,
+    "fields": {
+      "currency_name": "JOD",
+      "slug": "jod",
+      "created_at": "2023-07-03T12:29:15.044+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 123,
+    "fields": {
+      "currency_name": "KZT",
+      "slug": "kzt",
+      "created_at": "2023-07-03T12:29:15.208+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 124,
+    "fields": {
+      "currency_name": "KES",
+      "slug": "kes",
+      "created_at": "2023-07-03T12:29:15.372+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 126,
+    "fields": {
+      "currency_name": "KPW",
+      "slug": "kpw",
+      "created_at": "2023-07-03T12:29:15.782+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 127,
+    "fields": {
+      "currency_name": "KRW",
+      "slug": "krw",
+      "created_at": "2023-07-03T12:29:15.945+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 128,
+    "fields": {
+      "currency_name": "KWD",
+      "slug": "kwd",
+      "created_at": "2023-07-03T12:29:16.110+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 129,
+    "fields": {
+      "currency_name": "KGS",
+      "slug": "kgs",
+      "created_at": "2023-07-03T12:29:16.273+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 130,
+    "fields": {
+      "currency_name": "LAK",
+      "slug": "lak",
+      "created_at": "2023-07-03T12:29:16.436+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 132,
+    "fields": {
+      "currency_name": "LBP",
+      "slug": "lbp",
+      "created_at": "2023-07-03T12:29:16.847+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 133,
+    "fields": {
+      "currency_name": "LSL",
+      "slug": "lsl",
+      "created_at": "2023-07-03T12:29:17.011+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 134,
+    "fields": {
+      "currency_name": "LRD",
+      "slug": "lrd",
+      "created_at": "2023-07-03T12:29:17.175+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 135,
+    "fields": {
+      "currency_name": "LYD",
+      "slug": "lyd",
+      "created_at": "2023-07-03T12:29:17.339+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 136,
+    "fields": {
+      "currency_name": "CHF",
+      "slug": "chf",
+      "created_at": "2023-07-03T12:29:17.504+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 137,
+    "fields": {
+      "currency_name": "LTL",
+      "slug": "ltl",
+      "created_at": "2023-07-03T12:29:17.667+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 139,
+    "fields": {
+      "currency_name": "MOP",
+      "slug": "mop",
+      "created_at": "2023-07-03T12:29:18.077+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 140,
+    "fields": {
+      "currency_name": "MKD",
+      "slug": "mkd",
+      "created_at": "2023-07-03T12:29:18.240+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 141,
+    "fields": {
+      "currency_name": "MGA",
+      "slug": "mga",
+      "created_at": "2023-07-03T12:29:18.402+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 142,
+    "fields": {
+      "currency_name": "MWK",
+      "slug": "mwk",
+      "created_at": "2023-07-03T12:29:18.567+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 143,
+    "fields": {
+      "currency_name": "MYR",
+      "slug": "myr",
+      "created_at": "2023-07-03T12:29:18.731+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 144,
+    "fields": {
+      "currency_name": "MVR",
+      "slug": "mvr",
+      "created_at": "2023-07-03T12:29:18.895+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 148,
+    "fields": {
+      "currency_name": "MRO",
+      "slug": "mro",
+      "created_at": "2023-07-03T12:29:19.794+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 149,
+    "fields": {
+      "currency_name": "MUR",
+      "slug": "mur",
+      "created_at": "2023-07-03T12:29:19.957+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 151,
+    "fields": {
+      "currency_name": "MXN",
+      "slug": "mxn",
+      "created_at": "2023-07-03T12:29:20.365+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 152,
+    "fields": {
+      "currency_name": "MDL",
+      "slug": "mdl",
+      "created_at": "2023-07-03T12:29:20.529+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 154,
+    "fields": {
+      "currency_name": "MNT",
+      "slug": "mnt",
+      "created_at": "2023-07-03T12:29:20.939+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 157,
+    "fields": {
+      "currency_name": "MAD",
+      "slug": "mad",
+      "created_at": "2023-07-03T12:29:21.594+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 158,
+    "fields": {
+      "currency_name": "MZN",
+      "slug": "mzn",
+      "created_at": "2023-07-03T12:29:21.758+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 159,
+    "fields": {
+      "currency_name": "MMK",
+      "slug": "mmk",
+      "created_at": "2023-07-03T12:29:21.921+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 160,
+    "fields": {
+      "currency_name": "NAD",
+      "slug": "nad",
+      "created_at": "2023-07-03T12:29:22.086+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 162,
+    "fields": {
+      "currency_name": "NPR",
+      "slug": "npr",
+      "created_at": "2023-07-03T12:29:22.495+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 167,
+    "fields": {
+      "currency_name": "NIO",
+      "slug": "nio",
+      "created_at": "2023-07-03T12:29:23.639+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 169,
+    "fields": {
+      "currency_name": "NGN",
+      "slug": "ngn",
+      "created_at": "2023-07-03T12:29:24.048+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 173,
+    "fields": {
+      "currency_name": "OMR",
+      "slug": "omr",
+      "created_at": "2023-07-03T12:29:24.950+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 175,
+    "fields": {
+      "currency_name": "PAB",
+      "slug": "pab",
+      "created_at": "2023-07-03T12:29:25.359+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 176,
+    "fields": {
+      "currency_name": "PGK",
+      "slug": "pgk",
+      "created_at": "2023-07-03T12:29:25.524+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 177,
+    "fields": {
+      "currency_name": "PYG",
+      "slug": "pyg",
+      "created_at": "2023-07-03T12:29:25.688+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 178,
+    "fields": {
+      "currency_name": "PEN",
+      "slug": "pen",
+      "created_at": "2023-07-03T12:29:25.851+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 179,
+    "fields": {
+      "currency_name": "PHP",
+      "slug": "php",
+      "created_at": "2023-07-03T12:29:26.016+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 181,
+    "fields": {
+      "currency_name": "PLN",
+      "slug": "pln",
+      "created_at": "2023-07-03T12:29:26.424+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 183,
+    "fields": {
+      "currency_name": "QAR",
+      "slug": "qar",
+      "created_at": "2023-07-03T12:29:26.832+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 185,
+    "fields": {
+      "currency_name": "RON",
+      "slug": "ron",
+      "created_at": "2023-07-03T12:29:27.240+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 186,
+    "fields": {
+      "currency_name": "RUB",
+      "slug": "rub",
+      "created_at": "2023-07-03T12:29:27.403+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 187,
+    "fields": {
+      "currency_name": "RWF",
+      "slug": "rwf",
+      "created_at": "2023-07-03T12:29:27.567+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 188,
+    "fields": {
+      "currency_name": "SHP",
+      "slug": "shp",
+      "created_at": "2023-07-03T12:29:27.729+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 195,
+    "fields": {
+      "currency_name": "WST",
+      "slug": "wst",
+      "created_at": "2023-07-03T12:29:29.358+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 197,
+    "fields": {
+      "currency_name": "STD",
+      "slug": "std",
+      "created_at": "2023-07-03T12:29:29.766+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 198,
+    "fields": {
+      "currency_name": "SAR",
+      "slug": "sar",
+      "created_at": "2023-07-03T12:29:29.930+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 200,
+    "fields": {
+      "currency_name": "RSD",
+      "slug": "rsd",
+      "created_at": "2023-07-03T12:29:30.337+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 201,
+    "fields": {
+      "currency_name": "SCR",
+      "slug": "scr",
+      "created_at": "2023-07-03T12:29:30.501+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 202,
+    "fields": {
+      "currency_name": "SLL",
+      "slug": "sll",
+      "created_at": "2023-07-03T12:29:30.665+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 203,
+    "fields": {
+      "currency_name": "SGD",
+      "slug": "sgd",
+      "created_at": "2023-07-03T12:29:30.829+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 206,
+    "fields": {
+      "currency_name": "SBD",
+      "slug": "sbd",
+      "created_at": "2023-07-03T12:29:31.481+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 207,
+    "fields": {
+      "currency_name": "SOS",
+      "slug": "sos",
+      "created_at": "2023-07-03T12:29:31.646+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 208,
+    "fields": {
+      "currency_name": "ZAR",
+      "slug": "zar",
+      "created_at": "2023-07-03T12:29:31.809+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 209,
+    "fields": {
+      "currency_name": "SSP",
+      "slug": "ssp",
+      "created_at": "2023-07-03T12:29:31.972+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 211,
+    "fields": {
+      "currency_name": "LKR",
+      "slug": "lkr",
+      "created_at": "2023-07-03T12:29:32.381+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 212,
+    "fields": {
+      "currency_name": "SDG",
+      "slug": "sdg",
+      "created_at": "2023-07-03T12:29:32.545+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 213,
+    "fields": {
+      "currency_name": "SRD",
+      "slug": "srd",
+      "created_at": "2023-07-03T12:29:32.710+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 215,
+    "fields": {
+      "currency_name": "SZL",
+      "slug": "szl",
+      "created_at": "2023-07-03T12:29:33.119+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 216,
+    "fields": {
+      "currency_name": "SEK",
+      "slug": "sek",
+      "created_at": "2023-07-03T12:29:33.284+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 218,
+    "fields": {
+      "currency_name": "SYP",
+      "slug": "syp",
+      "created_at": "2023-07-03T12:29:33.694+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 219,
+    "fields": {
+      "currency_name": "TWD",
+      "slug": "twd",
+      "created_at": "2023-07-03T12:29:33.858+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 220,
+    "fields": {
+      "currency_name": "TJS",
+      "slug": "tjs",
+      "created_at": "2023-07-03T12:29:34.022+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 221,
+    "fields": {
+      "currency_name": "TZS",
+      "slug": "tzs",
+      "created_at": "2023-07-03T12:29:34.186+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 222,
+    "fields": {
+      "currency_name": "THB",
+      "slug": "thb",
+      "created_at": "2023-07-03T12:29:34.350+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 225,
+    "fields": {
+      "currency_name": "TOP",
+      "slug": "top",
+      "created_at": "2023-07-03T12:29:35.005+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 226,
+    "fields": {
+      "currency_name": "TTD",
+      "slug": "ttd",
+      "created_at": "2023-07-03T12:29:35.170+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 227,
+    "fields": {
+      "currency_name": "TND",
+      "slug": "tnd",
+      "created_at": "2023-07-03T12:29:35.334+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 228,
+    "fields": {
+      "currency_name": "TRY",
+      "slug": "try",
+      "created_at": "2023-07-03T12:29:35.497+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 229,
+    "fields": {
+      "currency_name": "TMT",
+      "slug": "tmt",
+      "created_at": "2023-07-03T12:29:35.662+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 231,
+    "fields": {
+      "currency_name": "UGX",
+      "slug": "ugx",
+      "created_at": "2023-07-03T12:29:36.072+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 232,
+    "fields": {
+      "currency_name": "UAH",
+      "slug": "uah",
+      "created_at": "2023-07-03T12:29:36.235+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 233,
+    "fields": {
+      "currency_name": "AED",
+      "slug": "aed",
+      "created_at": "2023-07-03T12:29:36.399+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 234,
+    "fields": {
+      "currency_name": "UYU",
+      "slug": "uyu",
+      "created_at": "2023-07-03T12:29:36.563+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 235,
+    "fields": {
+      "currency_name": "UZS",
+      "slug": "uzs",
+      "created_at": "2023-07-03T12:29:36.727+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 236,
+    "fields": {
+      "currency_name": "VUV",
+      "slug": "vuv",
+      "created_at": "2023-07-03T12:29:36.892+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 238,
+    "fields": {
+      "currency_name": "VEF",
+      "slug": "vef",
+      "created_at": "2023-07-03T12:29:37.299+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 239,
+    "fields": {
+      "currency_name": "VND",
+      "slug": "vnd",
+      "created_at": "2023-07-03T12:29:37.463+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 242,
+    "fields": {
+      "currency_name": "YER",
+      "slug": "yer",
+      "created_at": "2023-07-03T12:29:38.118+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 243,
+    "fields": {
+      "currency_name": "ZMK",
+      "slug": "zmk",
+      "created_at": "2023-07-03T12:29:38.282+05:53"
+    }
+  },
+  {
+    "model": "referral.currency",
+    "pk": 244,
+    "fields": {
+      "currency_name": "ZWL",
+      "slug": "zwl",
+      "created_at": "2023-07-03T12:29:38.446+05:53"
+    }
+  }
+]

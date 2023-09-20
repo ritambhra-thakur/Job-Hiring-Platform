@@ -1,0 +1,38 @@
+repos:
+  - repo: https://github.com/psf/black
+    rev: 20.8b1
+    hooks:
+      - id: black
+        language_version: python3.7
+        exclude: ^.*\b(migrations)\b.*$
+  - repo: https://github.com/pycqa/isort
+    rev: 5.8.0
+    hooks:
+      - id: isort
+        name: isort (python)
+        exclude: ^.*\b(migrations)\b.*$
+      - id: isort
+        name: isort (cython)
+        types: [cython]
+        exclude: ^.*\b(migrations)\b.*$
+      - id: isort
+        name: isort (pyi)
+        types: [pyi]
+        exclude: ^.*\b(migrations)\b.*$
+  - repo: https://gitlab.com/pycqa/flake8
+    rev: 3.7.9
+    hooks:
+      - id: flake8
+        exclude: "migrations"
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.0.1  # Use the ref you want to point at
+    hooks:
+      - id: trailing-whitespace
+        exclude: '.*\.(svg|png)$'
+      - id: check-yaml
+        files: .*\.(yaml|yml)$
+      - id: debug-statements
+      - id: name-tests-test
+      - id: check-toml
+      - id: end-of-file-fixer
+        exclude: '.*\.(min.js|svg|min.css|bundle.js)$'
